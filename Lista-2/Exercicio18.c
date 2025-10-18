@@ -22,12 +22,12 @@ int main()
    
    
    if (idade < 16){
-   printf("Você tem %.0f anos é não pode votar!", idade );
+   printf("Voce tem %.0f anos e nao pode votar!", idade );
        
    }else if  (idade > 70){
-   printf("Você tem %.0f anos é o voto e opcional!", idade);
+   printf("Voce tem %.0f anos e o voto e opcional!", idade);
    }else {
-   printf("Você tem %.0f anos é pode votar!", idade);
+   printf("Voce tem %.0f anos e pode votar!", idade);
    }
    
    

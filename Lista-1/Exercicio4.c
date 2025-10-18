@@ -14,7 +14,7 @@ int main()
 	
 	soma = n1 + n2;
 	
-	printf("A soma entre %i e %i é: %d \n ",n1, n2, soma);
+	printf("A soma entre %i e %i = %d \n ",n1, n2, soma);
 
 	return 0;
 }

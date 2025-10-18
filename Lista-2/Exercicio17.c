@@ -16,7 +16,7 @@ int main()
     
  
     if(velocidade > 80) {
-    printf("Você foi multado! O valor da multa: R$%.2f", (velocidade - 80) * 5);
+    printf("Voce foi multado! O valor da multa: R$%.2f", (velocidade - 80) * 5);
     } else {
         printf("Velocidade dentro do limite!");
     }

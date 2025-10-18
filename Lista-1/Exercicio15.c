@@ -7,11 +7,11 @@ int main()
 	int dias;
 	float valordosalario;
 
-	printf("Quantos dias foram trabalhados em um mês ?: ");
+	printf("Quantos dias foram trabalhados em um mes ?: ");
 	scanf("%d", &dias);
 
 	valordosalario = dias * 8 * 25;
 
-	printf("O valor do salário do funcionario que trabalhou %d dias é :%.2f", dias, valordosalario);
+	printf("O valor do salario do funcionario que trabalhou %d dias = %.2f", dias, valordosalario);
 	return 0;
 }

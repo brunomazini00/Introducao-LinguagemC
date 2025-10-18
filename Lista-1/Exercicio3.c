@@ -9,14 +9,14 @@ int main()
     char nome[50];
     float salario;
     
-    printf("Qual o nome do funcionario?: ");
+    printf("Qual o nome do funcionario? ");
   fgets(nome, sizeof(nome), stdin);
   nome[strcspn(nome,"\n")] = '\0';
   
-    printf("Qual o salário do funcionario?: ");
+    printf("Qual o salario do funcionario? ");
     scanf("%f", &salario);
     
-    printf( "O Funcionário %s, recebe o salário de: R$%.2f em Junho", nome, salario);
+    printf( "O Funcionario %s, recebe o salario de: R$%.2f em Junho", nome, salario);
 
     return 0;
 }

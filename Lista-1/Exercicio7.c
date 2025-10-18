@@ -7,13 +7,13 @@ int main()
 {
     float numero, dobro, terca;
     
-    printf("Vamos descobrir o dobro e a terça parte de um número?\n");
-    printf("Digite um número:");
+    printf("Vamos descobrir o dobro e a terca parte de um numero?\n");
+    printf("Digite um numero:");
     scanf("%f", &numero);
-https://www.onlinegdb.com/myfiles    
+
     dobro = numero * 2;
     terca = numero / 3;
     
-    printf("O dobro do número %.2f é: %.2f e sua terça parte è: %.5f", numero, dobro, terca);
+    printf("O dobro do numero %.2f: %.2f e sua terca parte: %.5f", numero, dobro, terca);
     return 0;
 }

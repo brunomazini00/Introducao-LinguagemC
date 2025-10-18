@@ -6,14 +6,14 @@
 int main()
 {
 	int numero, antecessor, sucessor;
-	printf("Vamos descobrir o antecessor e o sucessor de um nC:mero?\n");
+	printf("Vamos descobrir o antecessor e o sucessor de um numero?\n");
 	printf("Digite um numero inteiro:");
 	scanf("%d", &numero);
 
 	antecessor = numero - 1;
 	sucessor = numero + 1;
 
-	printf("O antecessor de %d C): %d e o sucessor C): %d ", numero, antecessor, sucessor);
+	printf("O antecessor de %d: %d e o sucessor: %d ", numero, antecessor, sucessor);
 
 	return 0;
 }

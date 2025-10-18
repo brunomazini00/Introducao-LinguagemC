@@ -12,6 +12,6 @@ int main()
 	
 	nome[strcspn(nome,"\n")] = '\0';
 
-	printf("Olá, %s, é um prazer te conhecer", nome);
+	printf("Ola, %s, e um prazer te conhecer", nome);
 	return 0;
 }

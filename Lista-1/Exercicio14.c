@@ -14,6 +14,6 @@ int main()
     
     valor_pagar = (dias * 90) + (km * 0.20);
     
-    printf("O valor total a pagar é: %.2f ",valor_pagar);
+    printf("O valor total a pagar = %.2f ",valor_pagar);
     return 0;
 }
